@@ -5,9 +5,9 @@ class Employee {
         this.department = department;
     }
 
-describe() {
-    return `Employee: ${this.name}, | Department: ${this.department}`;
-}
+    describe() {
+        return `Employee: ${this.name} | Department: ${this.department}`;
+}    
 }
 
 // Manager class
@@ -17,9 +17,9 @@ class Manager extends Employee {
         this.teamSize = teamSize;
     }
 
-describe() {
-    return `Manager: ${this.name}, | Department: ${this.department}, | Team Size: ${this.teamSize}`;
-}
+    describe() {
+        return `Manager: ${this.name} | Department: ${this.department} | Team Size: ${this.teamSize}`;
+}    
 }
 
 // Company class
